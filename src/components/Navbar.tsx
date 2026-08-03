@@ -44,7 +44,7 @@ export function Navbar() {
           <img
             src={logoImg}
             alt="Max 3 Digital Logo"
-            className="h-9 sm:h-11 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+            className="h-14 sm:h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
           />
         </a>
 
@@ -99,7 +99,7 @@ export function Navbar() {
                 <img
                   src={logoImg}
                   alt="Max 3 Digital"
-                  className="h-10 w-auto object-contain self-start mb-2"
+                  className="h-14 w-auto object-contain self-start mb-2"
                 />
                 <div className="h-px bg-gradient-to-r from-transparent via-[#D4AF37]/40 to-transparent" />
                 <nav className="flex flex-col space-y-4">
