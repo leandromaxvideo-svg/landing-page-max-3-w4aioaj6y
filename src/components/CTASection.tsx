@@ -4,7 +4,7 @@ import { ArrowRight, MessageCircle, Sparkles } from 'lucide-react'
 export function CTASection() {
   const openWhatsApp = () => {
     window.open(
-      'https://wa.me/5511999999999?text=Ol%C3%A1!%20Quero%20um%20diagn%C3%B3stico%20gratuito%20de%20marketing%20com%20a%20Max%203%20Digital.',
+      'https://wa.me/5517997194145?text=Ol%C3%A1!%20Quero%20um%20diagn%C3%B3stico%20gratuito%20de%20marketing%20com%20a%20Max%203%20Digital.',
       '_blank',
     )
   }

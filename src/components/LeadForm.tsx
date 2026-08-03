@@ -60,7 +60,7 @@ export function LeadForm() {
 
   const openWhatsAppNow = () => {
     window.open(
-      'https://wa.me/5511999999999?text=Ol%C3%A1!%20Acabei%20de%20preencher%20o%20formul%C3%A1rio%20no%20site%20da%20Max%203%20Digital.',
+      'https://wa.me/5517997194145?text=Ol%C3%A1!%20Acabei%20de%20preencher%20o%20formul%C3%A1rio%20no%20site%20da%20Max%203%20Digital.',
       '_blank',
     )
   }

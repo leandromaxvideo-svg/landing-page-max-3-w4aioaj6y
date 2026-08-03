@@ -50,7 +50,7 @@ export function Footer() {
             <ul className="space-y-2 text-xs">
               <li>
                 <a
-                  href="https://instagram.com/max3digital"
+                  href="https://www.instagram.com/max_3_digital/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#D4AF37] transition-colors"
@@ -60,7 +60,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://linkedin.com/company/max3digital"
+                  href="https://www.linkedin.com/in/leandro-pelegrini-16774590/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#D4AF37] transition-colors"
@@ -70,7 +70,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://wa.me/5511999999999"
+                  href="https://wa.me/5517997194145"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#D4AF37] transition-colors"

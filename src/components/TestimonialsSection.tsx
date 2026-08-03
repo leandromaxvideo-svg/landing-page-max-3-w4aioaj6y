@@ -5,27 +5,16 @@ export function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        'A Max 3 Digital reposicionou completamente a nossa escola. Saímos de posts sem propósito para uma marca de autoridade na cidade. As matrículas por indicação cresceram 200% em um semestre.',
-      author: 'Eduardo Fontes',
-      role: 'Diretor',
-      company: 'Colégio Horizonte',
-      avatar: 'https://img.usecurling.com/ppl/thumbnail?gender=male&seed=12',
+        'Não gasto mais dinheiro com revista, TV, outdoor, rádio. Depois que vocês começaram, eu vi o que é um marketing estruturado.',
+      author: 'Tomio',
+      company: 'Valfran',
+      avatar: 'https://img.usecurling.com/ppl/thumbnail?gender=male&seed=33',
     },
     {
-      quote:
-        'O tráfego pago estruturado mudou nosso jogo. Antes gastávamos com anúncio sem critério. Agora o CAC é controlado e cada real investido tem rastreabilidade. O ROI foi imediato.',
-      author: 'Camila Albuquerque',
-      role: 'Sócia',
-      company: 'Carrocerias Almeida',
-      avatar: 'https://img.usecurling.com/ppl/thumbnail?gender=female&seed=45',
-    },
-    {
-      quote:
-        'Não é só marketing, é construção de marca. O Método A8 nos deu território, tom de voz e um processo que funciona sem depender de mim o tempo todo. Critério, não barulho.',
-      author: 'Henrique Vasconcelos',
-      role: 'Advogado',
-      company: 'Vasconcelos Advogados',
-      avatar: 'https://img.usecurling.com/ppl/thumbnail?gender=male&seed=88',
+      quote: 'Depois que comecei com o marketing, parei de brigar por preço.',
+      author: 'Rodrigo',
+      company: 'Escola Passo a Passo de Votuporanga',
+      avatar: 'https://img.usecurling.com/ppl/thumbnail?gender=male&seed=71',
     },
   ]
 
@@ -47,7 +36,7 @@ export function TestimonialsSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {testimonials.map((item, idx) => (
             <Card
               key={idx}
@@ -76,7 +65,7 @@ export function TestimonialsSection() {
                   <div>
                     <h4 className="font-bold text-white text-sm">{item.author}</h4>
                     <p className="text-xs text-zinc-400">
-                      {item.role} • <span className="text-[#D4AF37]">{item.company}</span>
+                      <span className="text-[#D4AF37]">{item.company}</span>
                     </p>
                   </div>
                 </div>
