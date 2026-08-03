@@ -1,39 +1,37 @@
-import { useEffect, useState } from 'react'
+import { useState, useEffect } from 'react'
 
 interface TypewriterProps {
   phrases: string[]
   typingSpeed?: number
   deletingSpeed?: number
-  delayBetween?: number
+  pauseTime?: number
 }
 
 export function Typewriter({
   phrases,
-  typingSpeed = 70,
+  typingSpeed = 80,
   deletingSpeed = 40,
-  delayBetween = 2000,
+  pauseTime = 2000,
 }: TypewriterProps) {
-  const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0)
-  const [currentText, setCurrentText] = useState('')
+  const [phraseIndex, setPhraseIndex] = useState(0)
+  const [text, setText] = useState('')
   const [isDeleting, setIsDeleting] = useState(false)
 
   useEffect(() => {
-    const targetPhrase = phrases[currentPhraseIndex]
+    const currentPhrase = phrases[phraseIndex]
 
     const timeout = setTimeout(
       () => {
         if (!isDeleting) {
-          if (currentText.length < targetPhrase.length) {
-            setCurrentText(targetPhrase.slice(0, currentText.length + 1))
-          } else {
-            setTimeout(() => setIsDeleting(true), delayBetween)
+          setText(currentPhrase.slice(0, text.length + 1))
+          if (text.length === currentPhrase.length) {
+            setTimeout(() => setIsDeleting(true), pauseTime)
           }
         } else {
-          if (currentText.length > 0) {
-            setCurrentText(targetPhrase.slice(0, currentText.length - 1))
-          } else {
+          setText(currentPhrase.slice(0, text.length - 1))
+          if (text.length === 0) {
             setIsDeleting(false)
-            setCurrentPhraseIndex((prev) => (prev + 1) % phrases.length)
+            setPhraseIndex((prev) => (prev + 1) % phrases.length)
           }
         }
       },
@@ -41,20 +39,11 @@ export function Typewriter({
     )
 
     return () => clearTimeout(timeout)
-  }, [
-    currentText,
-    isDeleting,
-    currentPhraseIndex,
-    phrases,
-    typingSpeed,
-    deletingSpeed,
-    delayBetween,
-  ])
+  }, [text, isDeleting, phraseIndex, phrases, typingSpeed, deletingSpeed, pauseTime])
 
   return (
-    <span className="gold-gradient-text font-bold inline-flex items-center">
-      {currentText}
-      <span className="ml-1 w-0.5 h-7 bg-[#D4AF37] animate-pulse"></span>
+    <span className="gold-gradient-text inline-block pb-1.5 align-bottom overflow-visible border-r-2 border-[#D4AF37] animate-pulse pr-1 ml-1">
+      {text}
     </span>
   )
 }

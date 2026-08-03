@@ -26,7 +26,7 @@ export function HeroSection() {
             </span>
           </div>
 
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight sm:leading-none mb-6">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-normal sm:leading-[1.2] mb-6 pb-2 overflow-visible">
             Transformamos o negócio bom <Typewriter phrases={typewriterPhrases} />
           </h1>
 
