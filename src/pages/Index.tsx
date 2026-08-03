@@ -4,6 +4,7 @@ import { DifferentiatorsSection } from '@/components/DifferentiatorsSection'
 import { ServicesSection } from '@/components/ServicesSection'
 import { A8MethodSection } from '@/components/A8MethodSection'
 import { NichesSection } from '@/components/NichesSection'
+import { TeamSection } from '@/components/TeamSection'
 import { CTASection } from '@/components/CTASection'
 import { LeadForm } from '@/components/LeadForm'
 import { WhatsAppButton } from '@/components/WhatsAppButton'
@@ -19,6 +20,7 @@ export default function Index() {
         <ServicesSection />
         <A8MethodSection />
         <NichesSection />
+        <TeamSection />
         <CTASection />
         <LeadForm />
       </main>
