@@ -4,7 +4,7 @@ import { ArrowRight, MessageCircle, Sparkles } from 'lucide-react'
 export function CTASection() {
   const openWhatsApp = () => {
     window.open(
-      'https://wa.me/5511999999999?text=Ol%C3%A1!%20Quero%20acelerar%20minhas%20vendas%20com%20a%20Max%203%20Digital.',
+      'https://wa.me/5511999999999?text=Ol%C3%A1!%20Quero%20um%20diagn%C3%B3stico%20gratuito%20de%20marketing%20com%20a%20Max%203%20Digital.',
       '_blank',
     )
   }
@@ -16,17 +16,17 @@ export function CTASection() {
         <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 backdrop-blur-md mb-6">
           <Sparkles className="w-4 h-4 text-[#D4AF37]" />
           <span className="text-xs font-semibold text-[#D4AF37] uppercase tracking-wider">
-            Comece Hoje Mesmo
+            Comece hoje mesmo
           </span>
         </div>
         <h2 className="text-3xl sm:text-5xl font-extrabold mb-6 leading-tight">
-          Sua concorrência já está <span className="gold-gradient-text">automatizando vendas</span>.
+          Seu concorrente já tem <span className="gold-gradient-text">critério</span>.
           <br className="hidden sm:inline" />
-          Você vai ficar para trás?
+          Você vai competir só por preço?
         </h2>
         <p className="text-zinc-300 text-base sm:text-lg max-w-2xl mx-auto mb-10">
-          Agende um diagnóstico gratuito e descubra exatamente quanto faturamento sua empresa está
-          deixando na mesa.
+          Agende um diagnóstico gratuito e descubra como o Método A8 pode transformar o seu negócio
+          em referência do mercado.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button
@@ -38,13 +38,13 @@ export function CTASection() {
             Agendar Diagnóstico Gratuito
             <ArrowRight className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" />
           </Button>
-          <a href="#calculadora" className="w-full sm:w-auto">
+          <a href="#contato" className="w-full sm:w-auto">
             <Button
               variant="outline"
               size="lg"
               className="w-full border-zinc-700 bg-transparent text-zinc-200 hover:text-[#D4AF37] hover:border-[#D4AF37]/50 py-6 rounded-xl text-base"
             >
-              Calcular Meu ROI
+              Preencher Formulário
             </Button>
           </a>
         </div>

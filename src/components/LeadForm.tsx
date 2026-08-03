@@ -74,28 +74,28 @@ export function LeadForm() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <span className="text-xs font-bold uppercase tracking-wider text-[#D4AF37] bg-[#D4AF37]/10 px-3 py-1 rounded-full border border-[#D4AF37]/30">
-              Diagnóstico Estratégico
+              Diagnóstico Gratuito
             </span>
             <h2 className="text-3xl sm:text-5xl font-extrabold mt-4 mb-6 leading-tight">
-              Pronto para Acelerar a Operação da Sua Empresa?
+              Pronto para Transformar Seu Negócio em Referência?
             </h2>
             <p className="text-zinc-300 text-base leading-relaxed mb-8">
-              Preencha o formulário e receba um diagnóstico exclusivo do seu processo de vendas, sem
-              compromisso.
+              Preencha o formulário e receba um diagnóstico exclusivo de marketing, marca e tráfego
+              pago. Sem compromisso.
             </p>
 
             <div className="space-y-4 text-sm text-zinc-300">
               <div className="flex items-start space-x-3">
                 <CheckCircle2 className="w-5 h-5 text-[#D4AF37] shrink-0 mt-0.5" />
-                <span>Análise dos seus gargalos atuais de vendas e automação</span>
+                <span>Análise de posicionamento, marca e presença digital</span>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle2 className="w-5 h-5 text-[#D4AF37] shrink-0 mt-0.5" />
-                <span>Demonstração prática dos Dashboards e Pipeline de alta conversão</span>
+                <span>Demonstração prática do Método A8 e plano de ação</span>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle2 className="w-5 h-5 text-[#D4AF37] shrink-0 mt-0.5" />
-                <span>Atendimento humanizado diretamente por especialistas comerciais</span>
+                <span>Atendimento humanizado por especialistas em marketing</span>
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@ export function LeadForm() {
           <Card className="bg-black border-[#D4AF37]/30 shadow-2xl p-2 sm:p-6 rounded-2xl">
             <CardHeader>
               <CardTitle className="text-2xl font-bold text-white">
-                Solicitar Atendimento Especializado
+                Solicitar Diagnóstico Gratuito
               </CardTitle>
               <CardDescription className="text-zinc-400">
                 A resposta é rápida. Entraremos em contato no mesmo dia útil.

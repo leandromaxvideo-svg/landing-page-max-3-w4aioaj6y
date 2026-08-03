@@ -5,43 +5,45 @@ export function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        'Implementar a Max 3 Digital mudou completamente nossa forma de vender. Saímos de um acompanhamento em planilha para um pipeline automatizado. Nossas vendas subiram 180% em 3 meses.',
+        'A Max 3 Digital reposicionou completamente a nossa escola. Saímos de posts sem propósito para uma marca de autoridade na cidade. As matrículas por indicação cresceram 200% em um semestre.',
       author: 'Eduardo Fontes',
-      role: 'CEO',
-      company: 'LogixLog Soluções',
+      role: 'Diretor',
+      company: 'Colégio Horizonte',
       avatar: 'https://img.usecurling.com/ppl/thumbnail?gender=male&seed=12',
     },
     {
       quote:
-        'O dashboard em tempo real nos dá total clareza dos gargalos comerciais. As automações via WhatsApp reduzem o tempo de resposta e fecham negócios antes do concorrente.',
+        'O tráfego pago estruturado mudou nosso jogo. Antes gastávamos com anúncio sem critério. Agora o CAC é controlado e cada real investido tem rastreabilidade. O ROI foi imediato.',
       author: 'Camila Albuquerque',
-      role: 'Diretora Comercial',
-      company: 'Grupo Nexus B2B',
+      role: 'Sócia',
+      company: 'Carrocerias Almeida',
       avatar: 'https://img.usecurling.com/ppl/thumbnail?gender=female&seed=45',
     },
     {
       quote:
-        'A Max 3 Digital entregou muito mais que software: nos entregou um processo escalável. O ROI foi pago no primeiro mês de uso com os leads recuperados.',
+        'Não é só marketing, é construção de marca. O Método A8 nos deu território, tom de voz e um processo que funciona sem depender de mim o tempo todo. Critério, não barulho.',
       author: 'Henrique Vasconcelos',
-      role: 'Sócio-Fundador',
-      company: 'HV Capital & Investimentos',
+      role: 'Advogado',
+      company: 'Vasconcelos Advogados',
       avatar: 'https://img.usecurling.com/ppl/thumbnail?gender=male&seed=88',
     },
   ]
 
   return (
-    <section id="depoimentos" className="py-24 bg-black text-white relative">
+    <section
+      id="depoimentos"
+      className="py-24 bg-zinc-950 text-white relative border-t border-zinc-900"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-xs font-semibold uppercase tracking-wider text-[#D4AF37] bg-[#D4AF37]/10 px-3 py-1 rounded-full border border-[#D4AF37]/30">
             Provas Sociais
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold mt-3 mb-4">
-            O Que Dizem Nossos <span className="gold-gradient-text">Parceiros e Clientes</span>
+            O que dizem nossos <span className="gold-gradient-text">parceiros e clientes</span>
           </h2>
           <p className="text-zinc-400 text-sm sm:text-base">
-            Resultados reais de quem decidiu profissionalizar o pipeline de vendas com a Max 3
-            Digital.
+            Resultados reais de quem decidiu profissionalizar o marketing com a Max 3 Digital.
           </p>
         </div>
 
@@ -49,7 +51,7 @@ export function TestimonialsSection() {
           {testimonials.map((item, idx) => (
             <Card
               key={idx}
-              className="bg-zinc-950 border-zinc-800 hover:border-[#D4AF37]/50 transition-all duration-300 relative"
+              className="bg-black border-zinc-800 hover:border-[#D4AF37]/50 transition-all duration-300 relative"
             >
               <CardContent className="p-8 flex flex-col justify-between h-full">
                 <div>

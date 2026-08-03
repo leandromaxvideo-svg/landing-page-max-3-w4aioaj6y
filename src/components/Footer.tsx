@@ -9,8 +9,8 @@ export function Footer() {
           <div className="md:col-span-2 space-y-4">
             <img src={logoImg} alt="Max 3 Digital Logo" className="h-10 w-auto object-contain" />
             <p className="text-xs sm:text-sm text-zinc-400 max-w-md leading-relaxed">
-              Max 3 Digital — Transformando pipelines comerciais, criando dashboards de inteligência
-              e automatizando processos para empresas de alta performance.
+              Max 3 Digital — Curadoria de Marketing, Marca e Tráfego Pago Estruturado. Construímos
+              autoridade, reputação e previsibilidade com o Método A8.
             </p>
           </div>
 
@@ -18,28 +18,28 @@ export function Footer() {
             <h4 className="text-white font-bold text-sm mb-4">Navegação</h4>
             <ul className="space-y-2 text-xs">
               <li>
-                <a href="#solucoes" className="hover:text-[#D4AF37] transition-colors">
-                  Soluções
+                <a href="#diferenciais" className="hover:text-[#D4AF37] transition-colors">
+                  Diferenciais
                 </a>
               </li>
               <li>
-                <a href="#pipeline" className="hover:text-[#D4AF37] transition-colors">
-                  Pipeline de Vendas
+                <a href="#pilares" className="hover:text-[#D4AF37] transition-colors">
+                  Pilares
                 </a>
               </li>
               <li>
-                <a href="#calculadora" className="hover:text-[#D4AF37] transition-colors">
-                  Calculadora ROI
+                <a href="#metodo-a8" className="hover:text-[#D4AF37] transition-colors">
+                  Método A8
                 </a>
               </li>
               <li>
-                <a href="#sobre" className="hover:text-[#D4AF37] transition-colors">
-                  Sobre a Empresa
+                <a href="#nichos" className="hover:text-[#D4AF37] transition-colors">
+                  Nichos
                 </a>
               </li>
               <li>
                 <a href="#contato" className="hover:text-[#D4AF37] transition-colors">
-                  Contato
+                  Diagnóstico
                 </a>
               </li>
             </ul>

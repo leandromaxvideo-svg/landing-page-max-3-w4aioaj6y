@@ -17,11 +17,11 @@ export function Navbar() {
   }, [])
 
   const navLinks = [
-    { name: 'Soluções', href: '#solucoes' },
-    { name: 'Como Funciona', href: '#pipeline' },
-    { name: 'Calculadora ROI', href: '#calculadora' },
-    { name: 'Cases', href: '#sobre' },
-    { name: 'FAQ', href: '#contato' },
+    { name: 'Diferenciais', href: '#diferenciais' },
+    { name: 'Pilares', href: '#pilares' },
+    { name: 'Método A8', href: '#metodo-a8' },
+    { name: 'Nichos', href: '#nichos' },
+    { name: 'Diagnóstico', href: '#contato' },
   ]
 
   const openWhatsApp = () => {

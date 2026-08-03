@@ -1,70 +1,69 @@
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { GitMerge, LayoutDashboard, Cpu, CheckCircle, ArrowRight } from 'lucide-react'
+import { Megaphone, Gem, Target, CheckCircle, ArrowRight } from 'lucide-react'
 
 export function ServicesSection() {
   const services = [
     {
-      id: 'pipeline',
-      icon: GitMerge,
-      title: 'Pipeline de Vendas de Alta Performance',
-      subtitle: 'Estruturação Kanban & Score Inteligente',
+      id: 'marketing',
+      icon: Megaphone,
+      title: 'Marketing',
+      subtitle: 'Curadoria estratégica de conteúdo',
       description:
-        'Transforme a jornada de compra em um funil visual, previsível e sem vazamento de oportunidades. Rastreamento em tempo real de cada negociação.',
+        'Conteúdo com propósito, não por obrigação. Construímos uma arquitetura editorial que educa, humaniza, prova resultado e vende — sem barulho.',
       features: [
-        'Mapeamento de etapas customizado ao seu nicho',
-        'Lead scoring automático com base em comportamento',
-        'Notificações instantâneas para o time de pré-vendas',
-        'Integração total com WhatsApp e CRM corporativo',
+        '4 a 5 pilares de conteúdo alinhados ao posicionamento',
+        'Calendário editorial mensal com mínimo 12 posts',
+        'Banco de 90 pautas para 3 meses de conteúdo',
+        'Gestão estratégica de Instagram, WhatsApp e Google',
       ],
       badge: 'Pilar 01',
     },
     {
-      id: 'dashboard',
-      icon: LayoutDashboard,
-      title: 'Dashboard Inteligente & Business Intelligence',
-      subtitle: 'Decisões Baseadas em Dados Confiáveis',
+      id: 'marca',
+      icon: Gem,
+      title: 'Marca',
+      subtitle: 'Construção de autoridade e identidade',
       description:
-        'Centralize todas as métricas cruciais da sua empresa em painéis visuais intuitivos. Acompanhe receita, ticket médio e CAC em tempo real.',
+        'Transformamos negócios genéricos em referências inconfundíveis. Território de autoridade, slogan, mensagem-mãe e tom de voz que nenhum concorrente copia.',
       features: [
-        'Indicadores de desempenho (KPIs) em tempo real',
-        'Projeção de faturamento e previsibilidade mensal',
-        'Filtros por vendedor, região, canal e produto',
-        'Relatórios automatizados por e-mail e executivos',
+        'Território de autoridade único e defensável',
+        'Slogan posicionado e mensagem-mãe',
+        'Guia de tom de voz e identidade verbal',
+        'Script de apresentação institucional em 3 versões',
       ],
       badge: 'Pilar 02',
     },
     {
-      id: 'automacoes',
-      icon: Cpu,
-      title: 'Automações de Processos & IA Comercial',
-      subtitle: 'Velocidade & Redução do Custo Operacional',
+      id: 'trafego',
+      icon: Target,
+      title: 'Tráfego Pago Estruturado',
+      subtitle: 'Lead qualificado com CAC controlado',
       description:
-        'Elimine tarefas repetitivas e garanta que 100% dos leads sejam atendidos em menos de 60 segundos com fluxos inteligentes e integração total.',
+        'Campanhas em 3 camadas — consciência, consideração e conversão. Criativos de autoridade, copy posicionada e decisões baseadas em dado, não em feeling.',
       features: [
-        'Disparos inteligentes no WhatsApp no momento exato',
-        'Distribuição automática de leads entre vendedores',
-        'Integração de formulários, sistemas de pagamento e ERPs',
-        'Qualificação de leads via IA antes da reunião',
+        'Estrutura em 3 camadas: consciência, consideração, conversão',
+        'Criativos de autoridade com o diretor e depoimentos',
+        'Pixel instalado, remarketing e públicos semelhantes',
+        'Teste A/B contínuo e CAC calculado mensalmente',
       ],
       badge: 'Pilar 03',
     },
   ]
 
   return (
-    <section id="solucoes" className="py-24 bg-zinc-950 relative border-t border-b border-zinc-900">
+    <section id="pilares" className="py-24 bg-black relative border-t border-b border-zinc-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <Badge className="border-[#D4AF37]/40 text-[#D4AF37] bg-[#D4AF37]/10 mb-4 px-3 py-1">
-            Os 3 Pilares do Método Max 3
+            Os 3 Pilares da Curadoria
           </Badge>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">
-            Tecnologia e Estratégia Desenvolvidas para{' '}
-            <span className="gold-gradient-text">Acelerar Vendas</span>
+            Marketing, Marca e <span className="gold-gradient-text">Tráfego Pago Estruturado</span>
           </h2>
           <p className="text-zinc-400 text-base sm:text-lg">
-            Nossa arquitetura conecta atração, negociação e inteligência estratégica para garantir
-            previsibilidade e alta rentabilidade ao seu negócio.
+            Três pilares integrados que transformam presença digital em autoridade e autoridade em
+            receita previsível.
           </p>
         </div>
 
@@ -74,7 +73,7 @@ export function ServicesSection() {
             return (
               <Card
                 key={service.id}
-                className="bg-black border-zinc-800 hover:border-[#D4AF37]/60 transition-all duration-300 hover:-translate-y-2 group flex flex-col justify-between"
+                className="bg-zinc-950 border-zinc-800 hover:border-[#D4AF37]/60 transition-all duration-300 hover:-translate-y-2 group flex flex-col justify-between"
               >
                 <CardContent className="p-8">
                   <div>

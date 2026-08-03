@@ -1,12 +1,10 @@
 import { Navbar } from '@/components/Navbar'
 import { HeroSection } from '@/components/HeroSection'
+import { DifferentiatorsSection } from '@/components/DifferentiatorsSection'
 import { ServicesSection } from '@/components/ServicesSection'
-import { ProcessSection } from '@/components/ProcessSection'
-import { RoiCalculator } from '@/components/RoiCalculator'
-import { StatsSection } from '@/components/StatsSection'
-import { PortfolioSection } from '@/components/PortfolioSection'
+import { A8MethodSection } from '@/components/A8MethodSection'
+import { NichesSection } from '@/components/NichesSection'
 import { TestimonialsSection } from '@/components/TestimonialsSection'
-import { FaqSection } from '@/components/FaqSection'
 import { CTASection } from '@/components/CTASection'
 import { LeadForm } from '@/components/LeadForm'
 import { WhatsAppButton } from '@/components/WhatsAppButton'
@@ -18,13 +16,11 @@ export default function Index() {
       <Navbar />
       <main>
         <HeroSection />
+        <DifferentiatorsSection />
         <ServicesSection />
-        <ProcessSection />
-        <RoiCalculator />
-        <StatsSection />
-        <PortfolioSection />
+        <A8MethodSection />
+        <NichesSection />
         <TestimonialsSection />
-        <FaqSection />
         <CTASection />
         <LeadForm />
       </main>
