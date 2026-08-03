@@ -19,7 +19,7 @@ export function HeroSection() {
           <img
             src={logoImg}
             alt="Max 3 Digital"
-            className="h-14 sm:h-16 w-auto object-contain mx-auto mb-8"
+            className="h-[5.25rem] sm:h-24 w-auto object-contain mx-auto mb-8"
           />
 
           <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 backdrop-blur-md mb-6">

@@ -5,13 +5,14 @@ export function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        'Não gasto mais dinheiro com revista, TV, outdoor, rádio. Depois que vocês começaram, eu vi o que é um marketing estruturado.',
+        'Eu gastava com revista, rádio, outdoor e televisão. Hoje não gasto mais nada disso — e vendo mais. Foi com a Max 3 que eu entendi o que é marketing estruturado.',
       author: 'Tomio',
       company: 'Valfran',
       avatar: 'https://img.usecurling.com/ppl/thumbnail?gender=male&seed=33',
     },
     {
-      quote: 'Depois que comecei com o marketing, parei de brigar por preço.',
+      quote:
+        'Antes, a única forma de competir era baixar o preço. Hoje a mãe chega na secretaria já sabendo por que a escola vale o que custa.',
       author: 'Rodrigo',
       company: 'Escola Passo a Passo de Votuporanga',
       avatar: 'https://img.usecurling.com/ppl/thumbnail?gender=male&seed=71',

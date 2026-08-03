@@ -60,6 +60,16 @@ export function Footer() {
               </li>
               <li>
                 <a
+                  href="https://www.instagram.com/leandro.pelegrini/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#D4AF37] transition-colors"
+                >
+                  Instagram do Leandro Pelegrini
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://www.linkedin.com/in/leandro-pelegrini-16774590/"
                   target="_blank"
                   rel="noopener noreferrer"
