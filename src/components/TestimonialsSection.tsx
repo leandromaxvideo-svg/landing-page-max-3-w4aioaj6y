@@ -1,5 +1,7 @@
 import { Card, CardContent } from '@/components/ui/card'
 import { Star, Quote } from 'lucide-react'
+import valfranLogo from '@/assets/logo-transp-8acd8.png'
+import passoAPassoLogo from '@/assets/logo-passo-a-passo-caixa-alta-8bf87.png'
 
 export function TestimonialsSection() {
   const testimonials = [
@@ -8,14 +10,14 @@ export function TestimonialsSection() {
         'Eu gastava com revista, rádio, outdoor e televisão. Hoje não gasto mais nada disso — e vendo mais. Foi com a Max 3 que eu entendi o que é marketing estruturado.',
       author: 'Tomio',
       company: 'Valfran',
-      avatar: 'https://img.usecurling.com/ppl/thumbnail?gender=male&seed=33',
+      logo: valfranLogo,
     },
     {
       quote:
         'Antes, a única forma de competir era baixar o preço. Hoje a mãe chega na secretaria já sabendo por que a escola vale o que custa.',
       author: 'Rodrigo',
       company: 'Escola Passo a Passo de Votuporanga',
-      avatar: 'https://img.usecurling.com/ppl/thumbnail?gender=male&seed=71',
+      logo: passoAPassoLogo,
     },
   ]
 
@@ -58,15 +60,17 @@ export function TestimonialsSection() {
                 </div>
 
                 <div className="flex items-center space-x-4 pt-4 border-t border-zinc-900">
-                  <img
-                    src={item.avatar}
-                    alt={item.author}
-                    className="w-12 h-12 rounded-full border border-[#D4AF37]/40 object-cover"
-                  />
+                  <div className="h-16 w-32 sm:h-18 sm:w-36 bg-white/95 p-2 rounded-xl border border-zinc-800 flex items-center justify-center shrink-0 shadow-md">
+                    <img
+                      src={item.logo}
+                      alt={`Logo ${item.company}`}
+                      className="max-h-full max-w-full object-contain"
+                    />
+                  </div>
                   <div>
-                    <h4 className="font-bold text-white text-sm">{item.author}</h4>
-                    <p className="text-xs text-zinc-400">
-                      <span className="text-[#D4AF37]">{item.company}</span>
+                    <h4 className="font-bold text-white text-sm sm:text-base">{item.author}</h4>
+                    <p className="text-xs sm:text-sm text-zinc-400">
+                      <span className="text-[#D4AF37] font-medium">{item.company}</span>
                     </p>
                   </div>
                 </div>
