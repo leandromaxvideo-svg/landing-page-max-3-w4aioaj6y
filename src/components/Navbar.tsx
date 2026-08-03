@@ -18,10 +18,10 @@ export function Navbar() {
 
   const navLinks = [
     { name: 'Soluções', href: '#solucoes' },
-    { name: 'Pipeline', href: '#pipeline' },
+    { name: 'Como Funciona', href: '#pipeline' },
     { name: 'Calculadora ROI', href: '#calculadora' },
-    { name: 'Sobre Nós', href: '#sobre' },
-    { name: 'Depoimentos', href: '#depoimentos' },
+    { name: 'Cases', href: '#sobre' },
+    { name: 'FAQ', href: '#contato' },
   ]
 
   const openWhatsApp = () => {

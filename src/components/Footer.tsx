@@ -50,7 +50,7 @@ export function Footer() {
             <ul className="space-y-2 text-xs">
               <li>
                 <a
-                  href="https://instagram.com"
+                  href="https://instagram.com/max3digital"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#D4AF37] transition-colors"
@@ -60,12 +60,27 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/company/max3digital"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#D4AF37] transition-colors"
                 >
                   LinkedIn corporativo
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/5511999999999"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#D4AF37] transition-colors"
+                >
+                  WhatsApp Business
+                </a>
+              </li>
+              <li>
+                <a href="#contato" className="hover:text-[#D4AF37] transition-colors">
+                  Solicitar diagnóstico
                 </a>
               </li>
               <li className="pt-2">
