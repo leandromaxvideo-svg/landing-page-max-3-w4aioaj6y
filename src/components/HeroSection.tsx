@@ -3,7 +3,11 @@ import { Typewriter } from './Typewriter'
 import { ArrowRight, Sparkles } from 'lucide-react'
 
 export function HeroSection() {
-  const typewriterPhrases = ['negócio escolhido', 'referência do mercado', 'líder do segmento']
+  const typewriterPhrases = [
+    'na referência do mercado',
+    'no negócio escolhido',
+    'no líder do segmento',
+  ]
 
   const scrollToForm = () => {
     document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })
@@ -23,7 +27,7 @@ export function HeroSection() {
           </div>
 
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight sm:leading-none mb-6">
-            Transformamos o negócio bom no <Typewriter phrases={typewriterPhrases} />
+            Transformamos o negócio bom <Typewriter phrases={typewriterPhrases} />
           </h1>
 
           <p className="text-base sm:text-xl text-zinc-300 font-normal leading-relaxed max-w-3xl mx-auto mb-8">
