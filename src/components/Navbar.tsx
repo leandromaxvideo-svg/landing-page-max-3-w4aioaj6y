@@ -26,7 +26,7 @@ export function Navbar() {
 
   const openWhatsApp = () => {
     window.open(
-      'https://wa.me/5511999999999?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Max%203%20Digital%20e%20quero%20agendar%20uma%20demonstra%C3%A7%C3%A3o.',
+      'https://wa.me/5517997194145?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Max%203%20Digital%20e%20quero%20agendar%20uma%20demonstra%C3%A7%C3%A3o.',
       '_blank',
     )
   }

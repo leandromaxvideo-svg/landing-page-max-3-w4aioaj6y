@@ -60,7 +60,9 @@ export function FaqSection() {
           <p className="text-sm text-zinc-400">
             Não encontrou sua resposta?{' '}
             <a
-              href="#contato"
+              href="https://wa.me/5517997194145?text=Ol%C3%A1!%20Quero%20falar%20com%20um%20especialista%20da%20Max%203%20Digital."
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[#D4AF37] hover:text-amber-300 font-semibold transition-colors"
             >
               Fale com um especialista

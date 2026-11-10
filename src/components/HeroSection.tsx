@@ -37,7 +37,7 @@ export function HeroSection() {
               <ArrowRight className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" />
             </Button>
 
-            <a href="#diferenciais" className="w-full sm:w-auto">
+            <a href="#metodo-max-3" className="w-full sm:w-auto">
               <Button
                 variant="outline"
                 size="lg"
