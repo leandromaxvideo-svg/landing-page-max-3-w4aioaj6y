@@ -36,7 +36,7 @@ export function FaqSection() {
     {
       question: 'Vocês atendem empresas de qualquer porte?',
       answer:
-        'Atendemos desde pequenas empresas em fase de estruturação comercial até grandes operações com dezenas de vendedores. O método Max 3 é adaptável ao seu momento de crescimento.',
+        'Atendemos desde pequenas empresas em fase de estruturação comercial até grandes operações com dezenas de vendedores. O método MM3 é adaptável ao seu momento de crescimento.',
     },
   ]
 

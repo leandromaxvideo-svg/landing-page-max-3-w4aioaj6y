@@ -91,7 +91,7 @@ export function LeadForm() {
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle2 className="w-5 h-5 text-[#D4AF37] shrink-0 mt-0.5" />
-                <span>Diagnóstico A8 conduzido pelo Método Max 3, com plano de ação</span>
+                <span>Diagnóstico A8 conduzido pelo Método MM3, com plano de ação</span>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle2 className="w-5 h-5 text-[#D4AF37] shrink-0 mt-0.5" />

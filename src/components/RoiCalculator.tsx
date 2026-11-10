@@ -30,7 +30,7 @@ export function RoiCalculator() {
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold">
             Calcule o Quanto Sua Empresa Deixa de Faturar <br />
-            <span className="gold-gradient-text">Sem o Método Max 3</span>
+            <span className="gold-gradient-text">Sem o Método MM3</span>
           </h2>
           <p className="text-zinc-400 text-sm sm:text-base mt-3">
             Ajuste seus números atuais e veja o potencial imediato de expansão com a nossa
@@ -83,11 +83,11 @@ export function RoiCalculator() {
 
               <div className="p-4 rounded-xl bg-zinc-900 border border-zinc-800 text-xs text-zinc-400 space-y-2">
                 <div className="flex justify-between">
-                  <span>Conversão Estimada Atual (Sem Max 3):</span>
+                  <span>Conversão Estimada Atual (Sem MM3):</span>
                   <span className="font-semibold text-zinc-300">8.0%</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Conversão Média com Max 3 Pipeline:</span>
+                  <span>Conversão Média com MM3 Pipeline:</span>
                   <span className="font-semibold text-emerald-400">22.0%</span>
                 </div>
               </div>

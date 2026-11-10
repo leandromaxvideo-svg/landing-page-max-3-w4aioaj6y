@@ -36,7 +36,7 @@ export function HeroSection() {
             </strong>{' '}
             A comunicação é o carro-chefe: é ela que constrói posicionamento e reputação. O tráfego
             pago entra como apoio, para potencializar o que o orgânico já validou — com{' '}
-            <strong className="text-[#D4AF37]">Método Max 3</strong> e{' '}
+            <strong className="text-[#D4AF37]">Método MM3</strong> e{' '}
             <strong className="text-[#D4AF37]">Diagnóstico A8</strong> como porta de entrada.
           </p>
 
@@ -56,7 +56,7 @@ export function HeroSection() {
                 size="lg"
                 className="w-full border-zinc-800 bg-zinc-950/80 text-zinc-200 hover:text-[#D4AF37] hover:border-[#D4AF37]/50 py-6 rounded-xl text-base"
               >
-                Conhecer o Método Max 3
+                Conhecer o Método MM3
               </Button>
             </a>
           </div>

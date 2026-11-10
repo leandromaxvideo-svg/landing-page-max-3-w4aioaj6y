@@ -69,7 +69,7 @@ export function Max3MethodSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-xs font-bold uppercase tracking-wider text-[#D4AF37] bg-[#D4AF37]/10 px-3 py-1 rounded-full border border-[#D4AF37]/30">
-            Método Max 3
+            Método MM3
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold mt-4 mb-4">
             Uma casa se constrói em ordem —{' '}

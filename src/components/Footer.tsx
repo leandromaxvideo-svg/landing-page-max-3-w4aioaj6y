@@ -10,7 +10,7 @@ export function Footer() {
             <img src={logoImg} alt="Max 3 Digital Logo" className="h-10 w-auto object-contain" />
             <p className="text-xs sm:text-sm text-zinc-400 max-w-md leading-relaxed">
               Max 3 Digital — Especialistas em Marketing e Comunicação Estratégica. Consultoria e
-              implementação, com comunicação como carro-chefe e o Método Max 3.
+              implementação, com comunicação como carro-chefe e o Método MM3.
             </p>
           </div>
 
@@ -29,7 +29,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#metodo-max-3" className="hover:text-[#D4AF37] transition-colors">
-                  Método Max 3
+                  MM3
                 </a>
               </li>
               <li>

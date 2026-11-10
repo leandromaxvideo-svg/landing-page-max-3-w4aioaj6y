@@ -19,7 +19,7 @@ export function Navbar() {
   const navLinks = [
     { name: 'Diferenciais', href: '#diferenciais' },
     { name: 'Pilares', href: '#pilares' },
-    { name: 'Método Max 3', href: '#metodo-max-3' },
+    { name: 'MM3', href: '#metodo-max-3' },
     { name: 'Nichos', href: '#nichos' },
     { name: 'Diagnóstico A8', href: '#contato' },
   ]
