@@ -23,7 +23,7 @@ export function ProcessSection() {
       step: '03',
       title: 'Implementação & Integração',
       description:
-        'Conectamos CRM, WhatsApp, formulários e ERPs. Configuramos disparos automáticos, lead scoring e distribuição inteligente — tudo funcionando em até 14 dias.',
+        'Conectamos CRM, WhatsApp, formulários e ERPs. Configuramos disparos automáticos, lead scoring e distribuição inteligente. Tudo funcionando em até 14 dias.',
       duration: '7-14 dias',
     },
     {

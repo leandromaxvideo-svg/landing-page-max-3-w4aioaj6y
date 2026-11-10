@@ -27,13 +27,13 @@ export function NotScopeSection() {
               </h2>
               <p className="text-zinc-400 text-sm sm:text-base leading-relaxed mb-6">
                 Nosso escopo é delimitado de propósito. Trabalhamos com comunicação estratégica,
-                consultoria e implementação — e somos honestos sobre o que está fora disso. Essa
+                consultoria e implementação, e somos honestos sobre o que está fora disso. Essa
                 delimitação é o que garante profundidade no que fazemos e responsabilidade sobre o
                 que assumimos.
               </p>
               <p className="text-zinc-400 text-sm sm:text-base leading-relaxed">
                 Se o que você procura está na lista ao lado, provavelmente não somos o fornecedor
-                certo — e preferimos dizer isso antes do contrato do que depois.
+                certo, e preferimos dizer isso antes do contrato do que depois.
               </p>
             </div>
             <div className="rounded-2xl bg-zinc-950 border border-zinc-800 p-6 sm:p-8">

@@ -21,7 +21,7 @@ export function FaqSection() {
     {
       question: 'As automações funcionam com WhatsApp?',
       answer:
-        'Sim. Implementamos fluxos de WhatsApp automatizados que qualificam leads, agendam reuniões, enviam follow-ups e distribuem oportunidades para os vendedores — tudo com resposta em menos de 60 segundos.',
+        'Sim. Implementamos fluxos de WhatsApp automatizados que qualificam leads, agendam reuniões, enviam follow-ups e distribuem oportunidades para os vendedores. Tudo com resposta em menos de 60 segundos.',
     },
     {
       question: 'Como é cobrado o serviço?',
@@ -31,7 +31,7 @@ export function FaqSection() {
     {
       question: 'O dashboard funciona em tempo real?',
       answer:
-        'Sim. Todos os indicadores — faturamento, leads, conversão, ticket médio e CAC — são atualizados em tempo real. Você acessa de qualquer dispositivo e pode configurar relatórios automatizados por e-mail.',
+        'Sim. Todos os indicadores (faturamento, leads, conversão, ticket médio e CAC) são atualizados em tempo real. Você acessa de qualquer dispositivo e pode configurar relatórios automatizados por e-mail.',
     },
     {
       question: 'Vocês atendem empresas de qualquer porte?',

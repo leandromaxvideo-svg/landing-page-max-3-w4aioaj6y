@@ -9,7 +9,7 @@ export function Footer() {
           <div className="md:col-span-2 space-y-4">
             <img src={logoImg} alt="Max 3 Digital Logo" className="h-10 w-auto object-contain" />
             <p className="text-xs sm:text-sm text-zinc-400 max-w-md leading-relaxed">
-              Max 3 Digital — Especialistas em Marketing e Comunicação Estratégica. Consultoria e
+              Max 3 Digital: especialistas em Marketing e Comunicação Estratégica. Consultoria e
               implementação, com comunicação como carro-chefe e o Método MM3.
             </p>
           </div>

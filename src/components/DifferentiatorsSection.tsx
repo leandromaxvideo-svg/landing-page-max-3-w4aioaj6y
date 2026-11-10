@@ -6,13 +6,13 @@ export function DifferentiatorsSection() {
       icon: Volume2,
       title: 'Critério, não barulho',
       description:
-        'O mercado está cheio de barulho: volume de posts, alcance, curtidas e relatórios que não pagam conta. O que sustenta um negócio é critério — posicionamento deliberado que faz o cliente certo escolher você.',
+        'O mercado está cheio de barulho: volume de posts, alcance, curtidas e relatórios que não pagam conta. O que sustenta um negócio é critério: posicionamento deliberado que faz o cliente certo escolher você.',
     },
     {
       icon: Tv,
       title: '14 anos em TV',
       description:
-        'Mais de uma década de experiência em comunicação televisiva. Sabemos como construir narrativa, gerar conexão emocional e manter consistência — habilidades que trazemos para o digital.',
+        'Mais de uma década de experiência em comunicação televisiva. Sabemos como construir narrativa, gerar conexão emocional e manter consistência. São habilidades que trazemos para o digital.',
     },
     {
       icon: Award,
@@ -22,9 +22,9 @@ export function DifferentiatorsSection() {
     },
     {
       icon: ShieldX,
-      title: 'Não somos o pilantra do mercado',
+      title: 'Não somos o barulho do mercado',
       description:
-        'Existe quem vende pacote de posts, promete resultado em 30 dias, entrega relatório de curtida e some. Nós entregamos critério com processo e responsabilidade — e ficamos ao seu lado todo mês.',
+        'Existe quem vende pacote de posts, promete resultado em 30 dias, entrega relatório de curtida e some. Nós entregamos critério, processo e responsabilidade, e ficamos ao seu lado todo mês.',
     },
   ]
 

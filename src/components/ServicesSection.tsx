@@ -10,7 +10,7 @@ export function ServicesSection() {
       title: 'Comunicação Estratégica',
       subtitle: 'O carro-chefe: posicionamento e reputação',
       description:
-        'A comunicação é o que faz o cliente certo escolher você — e pagar por isso. Construímos arquitetura editorial, mensagem e presença com direção, não por obrigação.',
+        'A comunicação é o que faz o cliente certo escolher você e pagar por isso. Construímos arquitetura editorial, mensagem e presença com direção, não por obrigação.',
       features: [
         'Posicionamento e território de comunicação definidos no diagnóstico',
         'Arquitetura editorial com pilares e calendário mensal',
@@ -40,7 +40,7 @@ export function ServicesSection() {
       title: 'Tráfego Pago como Apoio',
       subtitle: 'Potencializa o que o orgânico já validou',
       description:
-        'Tráfego pago não é ponto de partida: é potencializador. Depois que o orgânico validou a mensagem, o anúncio amplia o alcance — ou serve de teste direto quando o diagnóstico indica que faz sentido.',
+        'Tráfego pago não é ponto de partida: é potencializador. Depois que o orgânico validou a mensagem, o anúncio amplia o alcance, ou serve de teste direto quando o diagnóstico indica que faz sentido.',
       features: [
         'Campanhas que ampliam o que já funcionou no orgânico',
         'Teste direto via anúncio quando o diagnóstico indicar',
@@ -63,8 +63,8 @@ export function ServicesSection() {
           </h2>
           <p className="text-zinc-400 text-base sm:text-lg">
             A comunicação estratégica lidera: é ela que constrói posicionamento e reputação. A marca
-            dá identidade a essa comunicação, e o tráfego pago entra como apoio — para potencializar
-            o que o orgânico já validou.
+            dá identidade a essa comunicação, e o tráfego pago entra como apoio para potencializar o
+            que o orgânico já validou.
           </p>
         </div>
 

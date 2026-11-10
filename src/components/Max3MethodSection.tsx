@@ -36,7 +36,7 @@ export function Max3MethodSection() {
       title: 'Ativação',
       duration: '6 a 10 semanas',
       description:
-        'Com a planta aprovada, a obra começa. Canais ativados, funil comercial estruturado, equipe treinada — e tráfego pago só aqui, para potencializar o que o orgânico já validou (ou teste direto quando o diagnóstico indicar).',
+        'Com a planta aprovada, a obra começa. Canais ativados, funil comercial estruturado e equipe treinada. Tráfego pago só aqui, para potencializar o que o orgânico já validou (ou teste direto quando o diagnóstico indicar).',
       deliverables: [
         '12 primeiros posts posicionados',
         'Funil de vendas e scripts de atendimento',
@@ -50,7 +50,7 @@ export function Max3MethodSection() {
       title: 'Mensuração e Otimização Constante',
       duration: 'Mensal',
       description:
-        'Casa construída precisa de manutenção — sem ela, a estrutura se degrada. Revisão mensal de posicionamento, indicadores e narrativa mantém o sistema de pé e evoluindo.',
+        'Casa construída precisa de manutenção. Sem ela, a estrutura se degrada. Revisão mensal de posicionamento, indicadores e narrativa mantém o sistema de pé e evoluindo.',
       deliverables: [
         'Reunião mensal de posicionamento',
         'Indicadores acompanhados com o dono do negócio',
@@ -72,12 +72,12 @@ export function Max3MethodSection() {
             Método MM3
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold mt-4 mb-4">
-            Uma casa se constrói em ordem —{' '}
-            <span className="gold-gradient-text">o marketing também</span>
+            Uma casa se constrói em ordem,
+            <span className="gold-gradient-text block">o marketing também</span>
           </h2>
           <p className="text-zinc-400 text-sm sm:text-base">
             Terreno, planta, obra e manutenção. Cada etapa tem entregável, prazo e marco de
-            aprovação — e nenhuma começa antes da anterior estar pronta.
+            aprovação. Nenhuma começa antes da anterior estar pronta.
           </p>
         </div>
 
@@ -128,7 +128,7 @@ export function Max3MethodSection() {
               <p className="text-sm text-zinc-300 leading-relaxed">
                 <strong className="text-white">Por que a ordem importa:</strong> anunciar semana que
                 vem, sem diagnóstico, é levantar parede torta em terreno que ninguém estudou. A
-                parede até fica de pé — mas o que ela sustenta depois é culpa sua. Primeiro o
+                parede até fica de pé, mas o que ela sustenta depois é culpa sua. Primeiro o
                 terreno, depois a planta, depois a obra.
               </p>
             </div>

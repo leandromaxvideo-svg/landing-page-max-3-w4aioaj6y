@@ -25,8 +25,8 @@ export function CTASection() {
           Você vai competir só por preço?
         </h2>
         <p className="text-zinc-300 text-base sm:text-lg max-w-2xl mx-auto mb-10">
-          Comece pelo Diagnóstico A8: uma leitura honesta do seu negócio, com critério e processo —
-          antes de qualquer sugestão de ação.
+          Comece pelo Diagnóstico A8: uma leitura honesta do seu negócio, feita com critério e
+          processo, antes de qualquer sugestão de ação.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button

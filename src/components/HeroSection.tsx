@@ -32,10 +32,10 @@ export function HeroSection() {
 
           <p className="text-base sm:text-xl text-zinc-300 font-normal leading-relaxed max-w-3xl mx-auto mb-8">
             <strong className="text-white">
-              Especialistas em Marketing e Comunicação Estratégica — Consultoria e Implementação.
+              Especialistas em Marketing e Comunicação Estratégica: consultoria e implementação.
             </strong>{' '}
             A comunicação é o carro-chefe: é ela que constrói posicionamento e reputação. O tráfego
-            pago entra como apoio, para potencializar o que o orgânico já validou — com{' '}
+            pago entra como apoio, para potencializar o que o orgânico já validou. Com{' '}
             <strong className="text-[#D4AF37]">Método MM3</strong> e{' '}
             <strong className="text-[#D4AF37]">Diagnóstico A8</strong> como porta de entrada.
           </p>
