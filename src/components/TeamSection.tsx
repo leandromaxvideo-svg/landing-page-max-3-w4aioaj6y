@@ -7,12 +7,14 @@ export function TeamSection() {
       name: 'Leandro Pelegrini',
       role: 'Fundador e responsável pelo marketing dos clientes',
       photo: leandroImg,
+      photoPosition: 'object-center',
       bio: 'Vinte e sete anos de audiovisual, quatorze deles dirigindo em televisão. É quem conduz o diagnóstico, define o posicionamento e apresenta os números para o dono do negócio todo mês.',
     },
     {
       name: 'Talita',
       role: 'Estrategista de marketing digital',
       photo: talitaImg,
+      photoPosition: 'object-top',
       bio: 'Responsável por toda a estratégia digital da empresa, pela construção de marca e pela condução dos projetos. É quem garante que o que foi definido no diagnóstico chegue inteiro na execução.',
     },
   ]
@@ -46,7 +48,7 @@ export function TeamSection() {
                   <img
                     src={member.photo}
                     alt={member.name}
-                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    className={`w-full h-full object-cover ${member.photoPosition} group-hover:scale-105 transition-transform duration-500`}
                   />
                 </div>
                 <h3 className="text-xl sm:text-2xl font-bold text-white mb-1 group-hover:text-[#D4AF37] transition-colors leading-snug">
