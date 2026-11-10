@@ -4,27 +4,27 @@ export function DifferentiatorsSection() {
   const differentials = [
     {
       icon: Volume2,
-      title: 'Critério, não barulho',
+      title: 'Método próprio, em quatro fases',
       description:
-        'O mercado está cheio de barulho: volume de posts, alcance, curtidas e relatórios que não pagam conta. O que sustenta um negócio é critério: posicionamento deliberado que faz o cliente certo escolher você.',
+        'Estudamos o terreno antes de construir: Diagnóstico, Arquitetura da Comunicação, Ativação e Mensuração. Nessa ordem, sem pular etapa. E medimos o que paga a conta, contatos qualificados e vendas, não curtida e alcance.',
     },
     {
       icon: Tv,
-      title: '14 anos em TV',
+      title: 'Plano sob medida, sem pacote de posts',
       description:
-        'Mais de uma década de experiência em comunicação televisiva. Sabemos como construir narrativa, gerar conexão emocional e manter consistência. São habilidades que trazemos para o digital.',
+        'Cada empresa recebe um plano pensado para o seu objetivo, com cada formato escolhido e justificado. Sem "X posts por mês" e sem promessa de resultado antes do diagnóstico. Deixamos claro desde o início o que entra e o que não entra no escopo.',
     },
     {
       icon: Award,
-      title: 'Certificação 8Ps',
+      title: 'Estratégia e execução no mesmo lugar',
       description:
-        'Certificação no Método 8Ps de Conrado Adolpho. Trabalhamos com um framework comprovado de marketing digital, não com achismos ou modismos passageiros.',
+        'Quem desenha a estratégia acompanha a execução: conteúdo, vídeo, tráfego pago e medição. Você contrata só a consultoria ou a consultoria com implementação, e tem uma pessoa responsável pelo marketing da sua empresa.',
     },
     {
       icon: ShieldX,
-      title: 'Não somos o barulho do mercado',
+      title: '27 anos de audiovisual',
       description:
-        'Existe quem vende pacote de posts, promete resultado em 30 dias, entrega relatório de curtida e some. Nós entregamos critério, processo e responsabilidade, e ficamos ao seu lado todo mês.',
+        '14 deles em televisão. Sabemos construir narrativa, gravar o dono da empresa falando com clareza e manter consistência. E o cliente mais antigo da Max está com a gente desde 2009.',
     },
   ]
 
