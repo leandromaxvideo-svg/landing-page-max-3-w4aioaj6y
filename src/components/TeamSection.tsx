@@ -1,5 +1,5 @@
 import leandroImg from '@/assets/img6128-82c10.jpg'
-import talitaImg from '@/assets/talita-em-estudio-e1e74.jpg'
+import talitaImg from '@/assets/foto-talita-77c88.jpeg'
 
 export function TeamSection() {
   const team = [
