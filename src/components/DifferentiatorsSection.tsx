@@ -6,7 +6,7 @@ export function DifferentiatorsSection() {
       icon: Volume2,
       title: 'Critério, não barulho',
       description:
-        'O mercado está cheio de barulho: volume de posts, alcance, curtidas e relatórios que não pagam conta. O que gera lucro real é critério — posicionamento deliberado que faz o cliente certo escolher você.',
+        'O mercado está cheio de barulho: volume de posts, alcance, curtidas e relatórios que não pagam conta. O que sustenta um negócio é critério — posicionamento deliberado que faz o cliente certo escolher você.',
     },
     {
       icon: Tv,
@@ -24,7 +24,7 @@ export function DifferentiatorsSection() {
       icon: ShieldX,
       title: 'Não somos o pilantra do mercado',
       description:
-        'Existe quem vende pacote de posts, promete resultado em 30 dias, entrega relatório de curtida e some. Nós entregamos critério com responsabilidade sobre o resultado — e ficamos ao seu lado todo mês.',
+        'Existe quem vende pacote de posts, promete resultado em 30 dias, entrega relatório de curtida e some. Nós entregamos critério com processo e responsabilidade — e ficamos ao seu lado todo mês.',
     },
   ]
 
@@ -42,7 +42,7 @@ export function DifferentiatorsSection() {
             O que nos torna <span className="gold-gradient-text">diferentes</span>
           </h2>
           <p className="text-zinc-400 text-sm sm:text-base">
-            Não vendemos barulho. Vendemos critério, responsabilidade e resultado.
+            Não vendemos barulho. Vendemos critério, processo e responsabilidade.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

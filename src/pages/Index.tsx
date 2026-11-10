@@ -2,7 +2,8 @@ import { Navbar } from '@/components/Navbar'
 import { HeroSection } from '@/components/HeroSection'
 import { DifferentiatorsSection } from '@/components/DifferentiatorsSection'
 import { ServicesSection } from '@/components/ServicesSection'
-import { A8MethodSection } from '@/components/A8MethodSection'
+import { Max3MethodSection } from '@/components/Max3MethodSection'
+import { NotScopeSection } from '@/components/NotScopeSection'
 import { NichesSection } from '@/components/NichesSection'
 import { TeamSection } from '@/components/TeamSection'
 import { CTASection } from '@/components/CTASection'
@@ -18,7 +19,8 @@ export default function Index() {
         <HeroSection />
         <DifferentiatorsSection />
         <ServicesSection />
-        <A8MethodSection />
+        <Max3MethodSection />
+        <NotScopeSection />
         <NichesSection />
         <TeamSection />
         <CTASection />

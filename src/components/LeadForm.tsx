@@ -77,11 +77,11 @@ export function LeadForm() {
               Diagnóstico Gratuito
             </span>
             <h2 className="text-3xl sm:text-5xl font-extrabold mt-4 mb-6 leading-tight">
-              Pronto para Transformar Seu Negócio em Referência?
+              Pronto para Começar pelo Diagnóstico A8?
             </h2>
             <p className="text-zinc-300 text-base leading-relaxed mb-8">
-              Preencha o formulário e receba um diagnóstico exclusivo de marketing, marca e tráfego
-              pago. Sem compromisso.
+              Preencha o formulário para solicitar o <strong>Diagnóstico A8</strong>: uma leitura
+              completa do seu posicionamento, comunicação e presença digital. Sem compromisso.
             </p>
 
             <div className="space-y-4 text-sm text-zinc-300">
@@ -91,7 +91,7 @@ export function LeadForm() {
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle2 className="w-5 h-5 text-[#D4AF37] shrink-0 mt-0.5" />
-                <span>Demonstração prática do Método A8 e plano de ação</span>
+                <span>Diagnóstico A8 conduzido pelo Método Max 3, com plano de ação</span>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle2 className="w-5 h-5 text-[#D4AF37] shrink-0 mt-0.5" />
@@ -118,8 +118,8 @@ export function LeadForm() {
                     Solicitação Recebida com Sucesso!
                   </h3>
                   <p className="text-sm text-zinc-300">
-                    Obrigado pelo contato! Nossos especialistas já receberam seus dados e
-                    responderão em breve.
+                    Obrigado pelo contato! Recebemos sua solicitação de Diagnóstico A8 e
+                    responderemos em breve.
                   </p>
                   <Button
                     onClick={openWhatsAppNow}

@@ -19,9 +19,9 @@ export function Navbar() {
   const navLinks = [
     { name: 'Diferenciais', href: '#diferenciais' },
     { name: 'Pilares', href: '#pilares' },
-    { name: 'Método A8', href: '#metodo-a8' },
+    { name: 'Método Max 3', href: '#metodo-max-3' },
     { name: 'Nichos', href: '#nichos' },
-    { name: 'Diagnóstico', href: '#contato' },
+    { name: 'Diagnóstico A8', href: '#contato' },
   ]
 
   const openWhatsApp = () => {

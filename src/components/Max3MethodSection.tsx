@@ -1,14 +1,14 @@
-import { Search, PenTool, Rocket, RefreshCw } from 'lucide-react'
+import { Search, PenTool, Hammer, Wrench, XCircle } from 'lucide-react'
 
-export function A8MethodSection() {
+export function Max3MethodSection() {
   const phases = [
     {
       icon: Search,
-      phase: 'Fase 1',
-      title: 'Diagnóstico A8',
+      metaphor: 'Terreno',
+      title: 'Diagnóstico',
       duration: '2 a 3 semanas',
       description:
-        'Auditoria completa de autoridade: presença digital, processo comercial, percepção de valor e benchmarking com concorrentes.',
+        'Antes de construir, é preciso conhecer o terreno. O Diagnóstico A8 estuda o negócio por inteiro: presença digital, processo comercial, percepção de valor e concorrência. Sem essa leitura, qualquer anúncio é chute.',
       deliverables: [
         'Auditoria de redes sociais e Google',
         'Cliente oculto via WhatsApp e visita',
@@ -18,66 +18,69 @@ export function A8MethodSection() {
     },
     {
       icon: PenTool,
-      phase: 'Fase 2',
-      title: 'Construção de Autoridade',
+      metaphor: 'Planta',
+      title: 'Arquitetura da Comunicação',
       duration: '3 a 4 semanas',
       description:
-        'Transformação dos dados em identidade. Território, slogan, arquitetura de conteúdo e scripts de apresentação.',
+        'Ninguém levanta parede sem planta. Aqui os dados do terreno viram projeto: território de comunicação, slogan, mensagem-mãe, arquitetura de conteúdo e scripts de apresentação.',
       deliverables: [
-        'Território de autoridade aprovado',
+        'Território de comunicação aprovado',
         'Slogan e mensagem-mãe',
         'Banco de 90 pautas e calendário editorial',
         'Scripts institucionais em 3 versões',
       ],
     },
     {
-      icon: Rocket,
-      phase: 'Fase 3',
-      title: 'Implementação',
+      icon: Hammer,
+      metaphor: 'Obra',
+      title: 'Ativação',
       duration: '6 a 10 semanas',
       description:
-        'O planejamento vira execução. Canais ativados, funil comercial estruturado, equipe treinada e campanhas de tráfego pago rodando.',
+        'Com a planta aprovada, a obra começa. Canais ativados, funil comercial estruturado, equipe treinada — e tráfego pago só aqui, para potencializar o que o orgânico já validou (ou teste direto quando o diagnóstico indicar).',
       deliverables: [
         '12 primeiros posts posicionados',
         'Funil de vendas e scripts de atendimento',
         'Manual de atendimento e treinamento',
-        'Campanhas de Meta Ads ativas',
+        'Campanhas de tráfego quando fizer sentido',
       ],
     },
     {
-      icon: RefreshCw,
-      phase: 'Fase 4',
-      title: 'Curadoria Contínua',
+      icon: Wrench,
+      metaphor: 'Manutenção',
+      title: 'Mensuração e Otimização Constante',
       duration: 'Mensal',
       description:
-        'O sistema fica ativo e a autoridade cresce mês a mês. Sem curadoria contínua, o caos volta em 60 dias.',
+        'Casa construída precisa de manutenção — sem ela, a estrutura se degrada. Revisão mensal de posicionamento, indicadores e narrativa mantém o sistema de pé e evoluindo.',
       deliverables: [
         'Reunião mensal de posicionamento',
-        'Dashboard de performance e CAC',
+        'Indicadores acompanhados com o dono do negócio',
         'Narrativa alinhada ao calendário do negócio',
-        'Relatório semestral de autoridade',
+        'Ajustes de rota com base em critério, não em moda',
       ],
     },
   ]
 
   return (
     <section
-      id="metodo-a8"
+      id="metodo-max-3"
       className="py-24 bg-zinc-950 text-white relative border-t border-zinc-900 overflow-hidden"
     >
       <div className="absolute top-1/2 left-0 w-[400px] h-[400px] bg-[#D4AF37]/5 blur-[120px] rounded-full pointer-events-none" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-xs font-bold uppercase tracking-wider text-[#D4AF37] bg-[#D4AF37]/10 px-3 py-1 rounded-full border border-[#D4AF37]/30">
-            Método A8
+            Método Max 3
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold mt-4 mb-4">
-            Do diagnóstico à <span className="gold-gradient-text">curadoria contínua</span>
+            Uma casa se constrói em ordem —{' '}
+            <span className="gold-gradient-text">o marketing também</span>
           </h2>
           <p className="text-zinc-400 text-sm sm:text-base">
-            Um método comprovado em 4 fases. Cada etapa tem entregável, prazo e marco de aprovação.
+            Terreno, planta, obra e manutenção. Cada etapa tem entregável, prazo e marco de
+            aprovação — e nenhuma começa antes da anterior estar pronta.
           </p>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {phases.map((phase, idx) => {
             const Icon = phase.icon
@@ -93,7 +96,7 @@ export function A8MethodSection() {
                     </div>
                     <div>
                       <span className="text-[11px] font-semibold text-zinc-500 uppercase tracking-wider">
-                        {phase.phase}
+                        {phase.metaphor}
                       </span>
                       <h3 className="text-base font-bold text-white group-hover:text-[#D4AF37] transition-colors">
                         {phase.title}
@@ -117,11 +120,18 @@ export function A8MethodSection() {
             )
           })}
         </div>
-        <div className="mt-12 text-center">
-          <div className="inline-flex items-center space-x-3 px-6 py-3 rounded-xl bg-[#D4AF37]/10 border border-[#D4AF37]/30">
-            <span className="text-sm text-[#D4AF37] font-semibold">
-              Sem curadoria contínua, o caos volta em 60 dias
-            </span>
+
+        <div className="mt-12 max-w-3xl mx-auto">
+          <div className="p-6 rounded-xl bg-black border border-[#D4AF37]/30">
+            <div className="flex items-start space-x-3">
+              <XCircle className="w-5 h-5 text-[#D4AF37] shrink-0 mt-0.5" />
+              <p className="text-sm text-zinc-300 leading-relaxed">
+                <strong className="text-white">Por que a ordem importa:</strong> anunciar semana que
+                vem, sem diagnóstico, é levantar parede torta em terreno que ninguém estudou. A
+                parede até fica de pé — mas o que ela sustenta depois é culpa sua. Primeiro o
+                terreno, depois a planta, depois a obra.
+              </p>
+            </div>
           </div>
         </div>
       </div>

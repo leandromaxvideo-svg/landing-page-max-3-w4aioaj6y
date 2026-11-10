@@ -52,7 +52,8 @@ export function NichesSection() {
             <span className="gold-gradient-text pb-1 inline-block">três segmentos</span>
           </h2>
           <p className="text-zinc-400 text-sm sm:text-base leading-relaxed">
-            Atuamos onde temos profundidade de mercado e capacidade de gerar resultado real.
+            Atuamos onde temos profundidade de mercado — com o mesmo critério e o mesmo processo em
+            todos os projetos.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">

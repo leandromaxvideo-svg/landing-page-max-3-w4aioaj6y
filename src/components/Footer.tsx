@@ -9,8 +9,8 @@ export function Footer() {
           <div className="md:col-span-2 space-y-4">
             <img src={logoImg} alt="Max 3 Digital Logo" className="h-10 w-auto object-contain" />
             <p className="text-xs sm:text-sm text-zinc-400 max-w-md leading-relaxed">
-              Max 3 Digital — Curadoria de Marketing, Marca e Tráfego Pago Estruturado. Construímos
-              autoridade, reputação e previsibilidade com o Método A8.
+              Max 3 Digital — Especialistas em Marketing e Comunicação Estratégica. Consultoria e
+              implementação, com comunicação como carro-chefe e o Método Max 3.
             </p>
           </div>
 
@@ -28,8 +28,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#metodo-a8" className="hover:text-[#D4AF37] transition-colors">
-                  Método A8
+                <a href="#metodo-max-3" className="hover:text-[#D4AF37] transition-colors">
+                  Método Max 3
                 </a>
               </li>
               <li>

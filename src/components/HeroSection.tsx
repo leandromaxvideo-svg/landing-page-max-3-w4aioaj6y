@@ -32,11 +32,12 @@ export function HeroSection() {
 
           <p className="text-base sm:text-xl text-zinc-300 font-normal leading-relaxed max-w-3xl mx-auto mb-8">
             <strong className="text-white">
-              Curadoria de Marketing, Marca e Tráfego Pago Estruturado.
+              Especialistas em Marketing e Comunicação Estratégica — Consultoria e Implementação.
             </strong>{' '}
-            Construímos autoridade, reputação e previsibilidade com o{' '}
-            <strong className="text-[#D4AF37]">Método A8</strong> — diagnóstico, construção de
-            marca, implementação e curadoria contínua.
+            A comunicação é o carro-chefe: é ela que constrói posicionamento e reputação. O tráfego
+            pago entra como apoio, para potencializar o que o orgânico já validou — com{' '}
+            <strong className="text-[#D4AF37]">Método Max 3</strong> e{' '}
+            <strong className="text-[#D4AF37]">Diagnóstico A8</strong> como porta de entrada.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
@@ -55,7 +56,7 @@ export function HeroSection() {
                 size="lg"
                 className="w-full border-zinc-800 bg-zinc-950/80 text-zinc-200 hover:text-[#D4AF37] hover:border-[#D4AF37]/50 py-6 rounded-xl text-base"
               >
-                Conhecer o Método A8
+                Conhecer o Método Max 3
               </Button>
             </a>
           </div>
@@ -71,7 +72,7 @@ export function HeroSection() {
             </div>
             <div className="flex flex-col items-center space-y-1">
               <span className="text-[#D4AF37] font-bold text-lg">A8</span>
-              <span>método proprietário</span>
+              <span>diagnóstico que inicia o método</span>
             </div>
           </div>
         </div>

@@ -5,17 +5,17 @@ import { Megaphone, Gem, Target, CheckCircle, ArrowRight } from 'lucide-react'
 export function ServicesSection() {
   const services = [
     {
-      id: 'marketing',
+      id: 'comunicacao',
       icon: Megaphone,
-      title: 'Marketing',
-      subtitle: 'Curadoria estratégica de conteúdo',
+      title: 'Comunicação Estratégica',
+      subtitle: 'O carro-chefe: posicionamento e reputação',
       description:
-        'Conteúdo com propósito, não por obrigação. Construímos uma arquitetura editorial que educa, humaniza, prova resultado e vende — sem barulho.',
+        'A comunicação é o que faz o cliente certo escolher você — e pagar por isso. Construímos arquitetura editorial, mensagem e presença com direção, não por obrigação.',
       features: [
-        '4 a 5 pilares de conteúdo alinhados ao posicionamento',
-        'Calendário editorial mensal com mínimo 12 posts',
-        'Banco de 90 pautas para 3 meses de conteúdo',
-        'Gestão estratégica de Instagram, WhatsApp e Google',
+        'Posicionamento e território de comunicação definidos no diagnóstico',
+        'Arquitetura editorial com pilares e calendário mensal',
+        'Narrativa consistente em Instagram, WhatsApp e Google',
+        'Mensagem que sustenta preço, margem e reputação',
       ],
       badge: 'Pilar 01',
     },
@@ -37,15 +37,15 @@ export function ServicesSection() {
     {
       id: 'trafego',
       icon: Target,
-      title: 'Tráfego Pago Estruturado',
-      subtitle: 'Lead qualificado com CAC controlado',
+      title: 'Tráfego Pago como Apoio',
+      subtitle: 'Potencializa o que o orgânico já validou',
       description:
-        'Campanhas em 3 camadas — consciência, consideração e conversão. Criativos de autoridade, copy posicionada e decisões baseadas em dado, não em feeling.',
+        'Tráfego pago não é ponto de partida: é potencializador. Depois que o orgânico validou a mensagem, o anúncio amplia o alcance — ou serve de teste direto quando o diagnóstico indica que faz sentido.',
       features: [
-        'Estrutura em 3 camadas: consciência, consideração, conversão',
-        'Criativos de autoridade com o diretor e depoimentos',
-        'Pixel instalado, remarketing e públicos semelhantes',
-        'Teste A/B contínuo e CAC calculado mensalmente',
+        'Campanhas que ampliam o que já funcionou no orgânico',
+        'Teste direto via anúncio quando o diagnóstico indicar',
+        'Estrutura em camadas: consciência, consideração, conversão',
+        'Decisão baseada em dado e critério, não em feeling',
       ],
       badge: 'Pilar 03',
     },
@@ -56,14 +56,15 @@ export function ServicesSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <Badge className="border-[#D4AF37]/40 text-[#D4AF37] bg-[#D4AF37]/10 mb-4 px-3 py-1">
-            Os 3 Pilares da Curadoria
+            Os 3 Pilares da Consultoria
           </Badge>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">
-            Marketing, Marca e <span className="gold-gradient-text">Tráfego Pago Estruturado</span>
+            Comunicação, Marca e <span className="gold-gradient-text">Tráfego como Apoio</span>
           </h2>
           <p className="text-zinc-400 text-base sm:text-lg">
-            Três pilares integrados que transformam presença digital em autoridade e autoridade em
-            receita previsível.
+            A comunicação estratégica lidera: é ela que constrói posicionamento e reputação. A marca
+            dá identidade a essa comunicação, e o tráfego pago entra como apoio — para potencializar
+            o que o orgânico já validou.
           </p>
         </div>
 
@@ -113,7 +114,7 @@ export function ServicesSection() {
                     href="#contato"
                     className="inline-flex items-center text-xs font-bold text-[#D4AF37] hover:text-amber-300 transition-colors pt-2 group/link"
                   >
-                    <span>Quero implementar no meu negócio</span>
+                    <span>Começar pelo Diagnóstico A8</span>
                     <ArrowRight className="w-4 h-4 ml-1 transition-transform group-hover/link:translate-x-1" />
                   </a>
                 </CardContent>

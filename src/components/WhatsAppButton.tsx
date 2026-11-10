@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react'
 export function WhatsAppButton() {
   const handleClick = () => {
     window.open(
-      'https://wa.me/5517997194145?text=Ol%C3%A1!%20Quero%20impulsionar%20as%20vendas%20da%20minha%20empresa%20com%20a%20Max%203%20Digital.',
+      'https://wa.me/5517997194145?text=Ol%C3%A1!%20Quero%20solicitar%20um%20Diagn%C3%B3stico%20A8%20com%20a%20Max%203%20Digital.',
       '_blank',
     )
   }

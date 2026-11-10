@@ -2,6 +2,8 @@ import pb from '@/lib/pocketbase/client'
 
 export interface LeadItem {
   id: string
+  collectionId: string
+  collectionName: string
   name: string
   email: string
   phone?: string
