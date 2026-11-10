@@ -41,7 +41,10 @@ export function NichesSection() {
   ]
 
   return (
-    <section id="nichos" className="py-24 bg-black text-white relative border-t border-zinc-900">
+    <section
+      id="nichos"
+      className="py-12 md:py-14 bg-black text-white relative border-t border-zinc-900"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-xs font-bold uppercase tracking-wider text-[#D4AF37] bg-[#D4AF37]/10 px-3 py-1 rounded-full border border-[#D4AF37]/30">

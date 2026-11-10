@@ -22,7 +22,7 @@ export function TeamSection() {
   return (
     <section
       id="equipe"
-      className="py-24 bg-black text-white relative border-t border-zinc-900 overflow-hidden"
+      className="py-12 md:py-14 bg-black text-white relative border-t border-zinc-900 overflow-hidden"
     >
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[400px] bg-[#D4AF37]/5 blur-[120px] rounded-full pointer-events-none" />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

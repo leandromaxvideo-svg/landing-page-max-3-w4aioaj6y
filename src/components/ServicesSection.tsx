@@ -52,7 +52,10 @@ export function ServicesSection() {
   ]
 
   return (
-    <section id="pilares" className="py-24 bg-black relative border-t border-b border-zinc-900">
+    <section
+      id="pilares"
+      className="py-12 md:py-14 bg-black relative border-t border-b border-zinc-900"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <Badge className="border-[#D4AF37]/40 text-[#D4AF37] bg-[#D4AF37]/10 mb-4 px-3 py-1">

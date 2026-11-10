@@ -68,7 +68,7 @@ export function LeadForm() {
   return (
     <section
       id="contato"
-      className="py-24 bg-zinc-950 text-white relative border-t border-zinc-900"
+      className="py-12 md:py-14 bg-zinc-950 text-white relative border-t border-zinc-900"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

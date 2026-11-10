@@ -63,7 +63,7 @@ export function Max3MethodSection() {
   return (
     <section
       id="metodo-max-3"
-      className="py-24 bg-zinc-950 text-white relative border-t border-zinc-900 overflow-hidden"
+      className="py-12 md:py-14 bg-zinc-950 text-white relative border-t border-zinc-900 overflow-hidden"
     >
       <div className="absolute top-1/2 left-0 w-[400px] h-[400px] bg-[#D4AF37]/5 blur-[120px] rounded-full pointer-events-none" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

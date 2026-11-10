@@ -10,7 +10,7 @@ export function CTASection() {
   }
 
   return (
-    <section className="py-20 bg-gradient-to-b from-black via-zinc-950 to-black text-white relative overflow-hidden border-t border-zinc-900">
+    <section className="py-12 md:py-14 bg-gradient-to-b from-black via-zinc-950 to-black text-white relative overflow-hidden border-t border-zinc-900">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-[#D4AF37]/10 blur-[150px] rounded-full pointer-events-none" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 backdrop-blur-md mb-6">

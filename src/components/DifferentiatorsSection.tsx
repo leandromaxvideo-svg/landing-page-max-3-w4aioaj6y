@@ -31,7 +31,7 @@ export function DifferentiatorsSection() {
   return (
     <section
       id="diferenciais"
-      className="py-24 bg-zinc-950 border-t border-b border-zinc-900 text-white"
+      className="py-12 md:py-14 bg-zinc-950 border-t border-b border-zinc-900 text-white"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
